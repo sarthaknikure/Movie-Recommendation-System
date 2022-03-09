@@ -70,7 +70,7 @@ def second(list):
 
 st.header('Movie Recomendation System')
 
-movies = pd.read_csv("/home/sarthak/Data_Science_Deploy_Project/Movie_Recommendation/main_data_till21.csv")
+movies = pd.read_csv("main_data_till21.csv")
 movie_list = movies['movie_title'].values
 selected_movie = st.selectbox(
     "Type or select movie from the drop list", movie_list
