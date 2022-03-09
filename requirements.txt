@@ -1,0 +1,8 @@
+requests
+streamlit
+scikit-learn
+numpy
+pandas
+pickle
+json
+gunicorn
